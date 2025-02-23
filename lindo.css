@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* colors: #D0BE9D #D2AD63 #916A36 */
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "frogie";
+    src: url(frogie/Frogie/Frogie-Regular.ttf);
+}
+@font-face {
+    font-family: Outfit;
+    src: url(Outfit/Outfit-VariableFont_wght.ttf);
+}
+body {
+    background-image: linear-gradient( to right,  #ebdfc8, #D2AD63);
+    height: 1500px;
+    background-attachment: scroll;
+    font-family: Outfit;
+}
+
+#corpo {
+    background-color: #F8F0DB;
+    width: 1000px;
+    margin: auto;
+    box-shadow: 5px  5px 4px rgba(0, 0, 0, 0.178);
+    border-radius: 5px;
+    padding: 0px 0px 30px;
+    
+}
+.home {
+    display: flex;
+    list-style: none;
+}
+img{
+    width:990px;
+    border:  solid 5px #D2AD63;
+    border-radius: 4px;
+}
+.home a:hover {
+    color: #BA8C4E;
+    transition-duration: 1s;
+}
+li:hover {
+    color: #BA8C4E;
+    background-color: #FFE69C;
+    transition-duration: 1s;
+}
+.menu {
+    margin-top: 20px;
+}
+
+.menu a {
+    color: #ffeebd;
+    text-decoration: none;
+}
+
+.menu li {
+    margin: 10px 80px;
+    margin-right: 10px;
+}
+li {
+    box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.123);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #D2AD63;
+}
+
+.meio {
+    height: 500px;
+    margin: 20px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff8ea;
+    border-radius: 5px;
+}
+.t1 {
+    color: #be955e;
+    margin: 0px;
+    font-family: frogie ;
+    font-style: normal;
+}
+.botao {
+    border-radius: 15px;
+    border: none;
+    background-color: #D2AD63;
+    padding: 10px;
+    width: 100px;
+    margin-left: 700px;
+}
+.saiba :hover{
+    transition-duration: 1s;
+    background-color: #94763a;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
